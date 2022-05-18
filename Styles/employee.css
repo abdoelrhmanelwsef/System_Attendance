@@ -1,0 +1,80 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+    min-height: 100vh;
+}
+.record-attend {
+    width: 50%;
+    height: 230px;
+    background-color: white;
+    border: 3px solid black;
+    margin: 30px auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+.record-attend span {
+    font-weight: bold;
+    font-size: 19px;
+    color: #010386;
+}
+.content{
+    font-weight: bold;
+    font-size: 19px;
+    color: #010386;
+}
+#code {
+    width: 60%;
+    height: 35px;
+    font-size: 25px;
+}
+#Check-attendance {
+    width: 30%;
+    height: 33px;
+    background: linear-gradient(45deg, #e8cfcf, transparent);
+    font-size: 14px;
+    font-weight: bold;
+}
+.daily-report {
+    width: 50%;
+    height: 61px;
+    background-color: white;
+    border: 3px solid #2bac1b;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.month-report {
+    width: 50%;
+    height: 61px;
+    background-color: white;
+    border: 3px solid #2bac1b;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #6e6868;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+    letter-spacing: 1px;
+    width: 100%;
+}
